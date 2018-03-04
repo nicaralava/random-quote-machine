@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto|Roboto+Slab|Vast+Shadow');
+.container{
+    width: 100%;
+    height: 100%;
+}
+.quote-wapper{
+    border-radius: 3px;
+    margin: 8% auto auto auto;
+    width: 60%;
+    padding: 20px;
+    display: table;
+    background-color: #fff;
+    line-height: 1;
+}
+.text-quote{
+    font-weight: 500;
+    font-size: 1.75em;
+}
+.text-and-author{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.text-and-author .quote-text-content{
+    font-family: 'Kaushan Script', cursive;
+}
+.text-and-author .text-author{
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.all-button{
+    margin-top: 5px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.all-button .social-wrapper{
+    min-width: 150px;
+}
+a.my-quote-button{
+    width: 50px;
+    height: 50px;
+    background-color: chocolate;
+    padding-left: 15px;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.new-quote-wrapper{
+    padding-top: 10px;
+    min-width: 180px;
+}
+a#new-quote {
+    font-size: 27px;
+    font-family: 'Roboto Slab', serif;
+}
+.my-quote-button{
+    width: 40px;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fa-quote-right{
+     float: right;
+ }
+.quote-text-content{
+    margin-bottom: 40px;
+}
+.new-quote-wrapper i,
+.new-quote-wrapper a,
+.new-quote-wrapper a:hover
+{
+    color: black;
+}
+footer p {
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+.transform {
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
